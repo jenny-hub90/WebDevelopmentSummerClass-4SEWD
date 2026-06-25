@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+form{
+    background-color: bisque;
+    width:100%;
+    max-width: 480px;
+    padding:20px;
+    margin:50px auto;
+    border-radius: 18px;
+}
+
+label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.form-group{
+    margin-bottom: 18px;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+select{
+    width: 100%;
+    padding:10px 12px;
+    border:2px solid #aaa;
+    font-size: 15px;
+    background-color: beige;
+}
+.btn-group{
+    display: flex;
+    gap:12px;
+    margin-top: 20px;
+}
+button{
+    padding:8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    border:none;
+}
+
+.radio-group{
+    display: flex;
+    gap:2px;
+}
+.checkbox-group{
+    display: flex;
+    gap:5px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
